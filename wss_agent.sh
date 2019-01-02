@@ -4,4 +4,4 @@ curl -LJO https://github.com/rameshtrimble/whitesource/raw/master/whitesource-fs
 
 curl -LJO https://github.com/rameshtrimble/whitesource/raw/master/whitesource-fs-agent.config
 
-java -jar whitesource-fs-agent.jar "$@"
+java -jar whitesource-fs-agent-18.11.2.1.jar "$@"
