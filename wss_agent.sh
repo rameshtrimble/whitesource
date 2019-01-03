@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-curl -LJO https://github.com/rameshtrimble/whitesource/raw/master/whitesource-fs-agent-18.11.2.1.jar
+curl -LJO https://github.com/rameshtrimble/whitesource/raw/develop/whitesource-fs-agent-18.11.2.1.jar
 
-curl -LJO https://github.com/rameshtrimble/whitesource/raw/master/whitesource-fs-agent.config
+curl -LJO https://github.com/rameshtrimble/whitesource/raw/develop/whitesource-fs-agent.config
 
 java -jar whitesource-fs-agent-18.11.2.1.jar "$@"
